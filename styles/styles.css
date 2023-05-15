@@ -29,9 +29,16 @@
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace
   */
 
-  --body-font-family: chill-script;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: chill-script;
+  /* || Chillscript Font Family  */
+@font-face {
+  font-family: "chill-script";
+  src: url("../styles/fonts/chillscript/chillscript.woff2") format("woff2");
+  font-display: swap;
+}
+
+  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+  --heading-font-family: chill-script, 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
   
   /* body sizes */
   --body-font-size-m: 22px;
