@@ -14,10 +14,10 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: #fff;
+  --background-color: #000000;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #000;
+  --text-color: #ffffff;
 
   /* fonts */
   /* 
@@ -55,7 +55,6 @@
 
   /* nav height */
   --nav-height: 64px;
-
 }
 
 @media (min-width: 900px) {
@@ -237,12 +236,12 @@ main img {
 }
 
 main .section {
-  padding: 64px 16px;
+  padding: 16px 16px;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 12px 12px;
   }
 }
 
